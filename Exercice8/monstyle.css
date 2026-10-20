@@ -1,0 +1,16 @@
+.div1{
+    cursor: pointer;
+    font-size: 20px ;
+    border-radius: 20px;
+    padding: 100px;
+    width: 200px;
+    background-color: #2B8AC4;
+}
+.div2{
+    cursor: pointer;
+    font-size: 20px ;
+    border-radius: 20px;
+    padding: 100px;
+    width: 200px;
+    background-color: #D94D37;
+}
