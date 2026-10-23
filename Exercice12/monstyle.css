@@ -1,0 +1,15 @@
+h3{
+    font-size: 16px;
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+}
+.box{
+    background-color: #168bb5;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}

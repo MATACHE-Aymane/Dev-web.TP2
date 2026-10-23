@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="monstyle.css">
+</head>
+<body>
+    <h3>Drag and Drop Exemple </h3>
+    <div class="container">
+        <div class="box" id="source" ondragover="allowDrop(event)" ondrop="drop(event)"><!--ondragover glisser par souris et ondrop relache-->
+            <h4>A deplacer</h4>
+            <div class="item" id="item1" draggable="true" ondragstart="drag(event)">Element 1</div>
+            <div class="item" id="item2" draggable="true" ondragstart="drag(event)">Element 2</div>
+            <div class="item" id="item3" draggable="true" ondragstart="drag(event)">Element 3</div>
+        </div>
+        <div class="box target" id="target" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <h4>Déposer</h4>
+        </div>
+    </div>
+    <script src="monscript.js"></script>
+</body>
+</html>
